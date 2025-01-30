@@ -40,33 +40,51 @@
         <a class="main1_logo_a" href="#">
           <img class="main1_logo" src="media/logo.png" alt="logo">
         </a>
-        <!--<div class="main1_description">
-          <a>Minecraft,<br>like</a>
-          <a class="main1_actcent">already done before</a><a>.</a>
-        </div>-->
         <div class="main1_ipcopier_div">
           <button class="main1_ipcopier" onclick="copyText()" type="button">
             <span class="main1_ipcopier_text1">Terraria #1</span>
             <br>
             <span class="main1_ipcopier_text2">Click to copy IP</span>
           </button>
+          
+          <button class="main1_ipcopier" onclick="copyText2()" type="button">
+            <span class="main1_ipcopier_text1">Valheim</span>
+            <br>
+            <span class="main1_ipcopier_text2">Click to copy IP</span>
+          </button>
+
           <script>
-            function copyText() {
-                navigator.clipboard.writeText
-            ("play.bitwood.xyz:60403");
-                }
-            $(document).ready(function() {
-            $('.main1_ipcopier').click(function() {
-                var popup = $('<div>', { class: 'main1_popup' })
-                .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
-                $(this).after(popup);
-                setTimeout(function() {
-                popup.remove();
-                }, 1000);
-            });
-            });
-        </script>
-        </div>
+              function copyText() {
+                  navigator.clipboard.writeText
+              ("play.bitwood.xyz:60403");
+                  }
+              $(document).ready(function() {
+              $('.main1_ipcopier').click(function() {
+                  var popup = $('<div>', { class: 'main1_popup' })
+                  .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
+                  $(this).after(popup);
+                  setTimeout(function() {
+                  popup.remove();
+                  }, 1000);
+              });
+              });
+
+              function copyText2() {
+                  navigator.clipboard.writeText
+              ("valheim.bitwood.xyz:60400");
+                  }
+              $(document).ready(function() {
+              $('.main1_ipcopier').click(function() {
+                  var popup = $('<div>', { class: 'main1_popup' })
+                  .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
+                  $(this).after(popup);
+                  setTimeout(function() {
+                  popup.remove();
+                  }, 1000);
+              });
+              });
+          </script>
+       </div>
         <a href="#more" class="scroll">
           <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
         </a>
@@ -94,26 +112,11 @@
             <a class="main2_feature_headline">Terraria #1</a>
             <a class="main2_feature_text">This is our Main server, more will come soon<br><br>IP:play.bitwood.xyz<br>Port:60403<br><br> Or click the button above</a>
           </div>
-          <!--<div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/">
-            <a class="main2_feature_headline">Terraria #2</a>
-            <a class="main2_feature_text">Open to the public, the server wipes last day of every month, It is mastermode, large world. Everything else is random</a>
-          </div>
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/">
-            <a class="main2_feature_headline">Terraria #3</a>
-            <a class="main2_feature_text">PVP server</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/valheim.png">
+            <a class="main2_feature_headline">Valheim</a>
+            <a class="main2_feature_text">IP:valheim.bitwood.xyz<br>Port:60400<br><br> Or click the button above</a>
           </div>
-          <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/Calamity.png">
-            <a class="main2_feature_headline">Terraria #4</a>
-            <a class="main2_feature_text">Calamity, wipes every other month</a>
-          </div>
-          <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/">
-            <a class="main2_feature_headline">More comming soon</a>
-            <a class="main2_feature_text"></a>
-          </div>-->
         </div>
       </div>
       
