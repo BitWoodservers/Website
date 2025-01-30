@@ -224,6 +224,15 @@ body {
     color:var(--accent1);
 }
 
+.main1_ipcopier_div{
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    flex-wrap: wrap;          
+    gap: 10px; 
+}
+
 .main1_ipcopier {
     padding: 1rem;
     padding-left: 2rem;
